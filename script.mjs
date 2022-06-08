@@ -101,46 +101,45 @@ if (hmswfi) {
 }
 
 // switch
-// let arg = prompt("Are you student/mentor/Dalida/nobody? ");
-// let arg = ''
-// switch(arg) {
-//     case "student":
-//         alert("Hey student! Have you done your homework?");
-//         break;
-//     case "mentor":
-//         alert("Hey mentor! Have you checked my homework?");
-//         break;
-//     case "Dalida":
-//         alert("hey, hozyain! How do you do? ");
-//         break;
-//     case "nobody":
-//         alert("Harry Potter dal Dobbi nosok. Teper' Dobbi svoboden! U Dobbi net hozyaina )");
-//         break;
-//     default:
-//         alert("Unknown value");
-//         break;
-// }
+let arg = prompt("Are you student/mentor/Dalida/nobody? ");
+switch(arg) {
+    case "student":
+        alert("Hey student! Have you done your homework?");
+        break;
+    case "mentor":
+        alert("Hey mentor! Have you checked my homework?");
+        break;
+    case "Dalida":
+        alert("hey, hozyain! How do you do? ");
+        break;
+    case "nobody":
+        alert("Harry Potter dal Dobbi nosok. Teper' Dobbi svoboden! U Dobbi net hozyaina )");
+        break;
+    default:
+        alert("Unknown value");
+        break;
+}
 
 
 // 6. Циклы - for, while, do while
 
 // while 
-// while (day <= 5){
-//     day++;
-//     alert(`DAY ${day}`);
-// }
+while (day <= 5){
+    day++;
+    alert(`DAY ${day}`);
+}
 
-// // do-while
-// do {
-//     alert("day off")
-//     day++;
-// } while (day <= 7);
+// do-while
+do {
+    alert("day off")
+    day++;
+} while (day <= 7);
 
-// // for
-// let i = 3;
-// for (; i < day-1; i++){
-//     alert(`Days remained to Sunday: ${day - i}`);
-// }
+// for
+let i = 3;
+for (; i < day-1; i++){
+    alert(`Days remained to Sunday: ${day - i}`);
+}
 
 // 7. Функции - обычные, function expression, arrow functions, destructuring
 
